@@ -2,16 +2,3 @@
 
 This repository serves as the central data hub and analysis pipeline for matching 3D models with global geological datasets (Earth, Moon, Mars).
 
-## 📂 Project Structure & Files
-
-* **`Criteria`** – Defined criteria and parameters for 3D matching.
-* **`finalfile.xlsx`** – Evaluation spreadsheet containing matched properties and results.
-* **`global_planetary_downloader-v2.py`** – Python script to automatically download global Level-3 topography and geology datasets (ETOPO1 for Earth, LOLA for Moon, MOLA for Mars).
-* **`global_planetary_geology/`** – Local directory for downloaded `.tif` and `.img` maps used for QGIS visualization.
-
-## 🚀 Quick Start (Setup)
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/lalalurais/nasa-3d-matching.git](https://github.com/lalalurais/nasa-3d-matching.git)
-   cd nasa-3d-matching
